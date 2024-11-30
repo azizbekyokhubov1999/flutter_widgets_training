@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_training/pages/pdf_reader.dart';
 import 'package:flutter_widgets_training/pages/shimmer_effect.dart';
 
 
@@ -37,9 +38,43 @@ import 'package:flutter_widgets_training/pages/shimmer_effect.dart';
 
 //for onboarding example
 
+// for shimmer effect
+
+// void main(){
+//   runApp(const MyApp());
+// }
+//
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: "Flutter Widgets",
+//       debugShowCheckedModeBanner: false,
+//       theme: ThemeData(
+//           useMaterial3: true
+//       ),
+//       home: Scaffold(
+//         appBar: AppBar(
+//           title: Text("Shimmer effect",
+//             style: TextStyle(
+//                 fontSize: 25,
+//                 fontWeight: FontWeight.bold,
+//                 color: Colors.white
+//             ),
+//           ),
+//           backgroundColor: Colors.green,
+//           centerTitle: true,
+//         ),
+//         body: MyShimmerEffect(),
+//       ),
+//     );
+//   }
+// }
 
 void main(){
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -48,27 +83,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Flutter Widgets",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-          useMaterial3: true
+        useMaterial3: true
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Shimmer effect",
-            style: TextStyle(
-                fontSize: 25,
-                fontWeight: FontWeight.bold,
-                color: Colors.white
-            ),
-          ),
-          backgroundColor: Colors.green,
-          centerTitle: true,
-        ),
-        body: MyShimmerEffect(),
-      ),
+      home: MyPDFReader(),
     );
   }
 }
-
 
