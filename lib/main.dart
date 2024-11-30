@@ -3,6 +3,7 @@ import 'package:flutter_widgets_training/pages/modern_bottom_navbar.dart';
 import 'package:flutter_widgets_training/pages/pdf_reader.dart';
 import 'package:flutter_widgets_training/pages/remove_appbar_back_button.dart';
 import 'package:flutter_widgets_training/pages/shimmer_effect.dart';
+import 'package:flutter_widgets_training/pages/show_bottom_sheet.dart';
 
 
 //for onboarding example
@@ -89,7 +90,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyModernBNB(),
+      home: MyBottomSheet(),
     );
   }
 }
