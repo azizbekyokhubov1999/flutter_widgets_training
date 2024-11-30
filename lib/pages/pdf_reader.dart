@@ -24,7 +24,7 @@ class _MyPDFReaderState extends State<MyPDFReader> {
       
       // for read from network
       
-      body: SfPdfViewer.network('https://cdn.syncfusion.com/content/PDFViewer/flutter-succinctly.pdf'),
+     body: SfPdfViewer.network('https://cdn.syncfusion.com/content/PDFViewer/flutter-succinctly.pdf'),
       
     );
   }

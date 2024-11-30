@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets_training/pages/pdf_reader.dart';
+import 'package:flutter_widgets_training/pages/remove_appbar_back_button.dart';
 import 'package:flutter_widgets_training/pages/shimmer_effect.dart';
 
 
@@ -87,7 +88,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyPDFReader(),
+      home: RemoveAppbarBackButton(),
     );
   }
 }
