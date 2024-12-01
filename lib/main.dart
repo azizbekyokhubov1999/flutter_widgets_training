@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_training/pages/expansion_tile.dart';
 import 'package:flutter_widgets_training/pages/fitted_box.dart';
 import 'package:flutter_widgets_training/pages/hiden_appbar.dart';
 import 'package:flutter_widgets_training/pages/modern_bottom_navbar.dart';
@@ -92,7 +93,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyFittedBox(),
+      home: MyExpansionTile(),
     );
   }
 }

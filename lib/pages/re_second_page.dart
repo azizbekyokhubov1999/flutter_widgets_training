@@ -17,7 +17,6 @@ class ReSecondPage extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             minimumSize: Size(150, 50),
             backgroundColor: Colors.red[300],
-
           ),
             onPressed: (){
             Navigator.pop(context);

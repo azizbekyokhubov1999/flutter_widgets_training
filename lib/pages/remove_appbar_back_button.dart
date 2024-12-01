@@ -8,7 +8,6 @@ class RemoveAppbarBackButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-
         backgroundColor: Colors.deepPurple[300],
         title: Text("Home Page"),
         centerTitle: true,
@@ -21,7 +20,7 @@ class RemoveAppbarBackButton extends StatelessWidget {
           ),
             onPressed: (){
            Navigator.push(context, MaterialPageRoute(builder: (context) => ReSecondPage()));
-           // Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => ReSecondPage()));
+            //Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => ReSecondPage()));
             },
             child: Text("Second Page",
             style: TextStyle(

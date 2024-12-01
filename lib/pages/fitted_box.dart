@@ -13,15 +13,15 @@ class MyFittedBox extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          height: 100,
-          width: 100,
+          height: 200,
+          width: 300,
           color: Colors.red,
           child: Padding(
             padding: const EdgeInsets.all(20),
             child: FittedBox(
-                child: 
-                Icon(Icons.favorite)
-                //Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry.")
+                child:
+                //Icon(Icons.favorite)
+                Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry.")
             ),
           ),
         ),
