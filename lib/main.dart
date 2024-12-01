@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets_training/pages/expansion_tile.dart';
 import 'package:flutter_widgets_training/pages/fitted_box.dart';
+import 'package:flutter_widgets_training/pages/flutter_rating_bar.dart';
 import 'package:flutter_widgets_training/pages/hiden_appbar.dart';
 import 'package:flutter_widgets_training/pages/modern_bottom_navbar.dart';
 import 'package:flutter_widgets_training/pages/pdf_reader.dart';
@@ -93,7 +94,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyExpansionTile(),
+      home: MyFlRatingBar(),
     );
   }
 }
