@@ -8,6 +8,7 @@ import 'package:flutter_widgets_training/pages/pdf_reader.dart';
 import 'package:flutter_widgets_training/pages/remove_appbar_back_button.dart';
 import 'package:flutter_widgets_training/pages/shimmer_effect.dart';
 import 'package:flutter_widgets_training/pages/show_bottom_sheet.dart';
+import 'package:flutter_widgets_training/pages/toast_message.dart';
 import 'package:flutter_widgets_training/pages/transparent_appbar.dart';
 
 
@@ -95,7 +96,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyTransparentAppBar(),
+      home: MyToastMessage(),
     );
   }
 }
