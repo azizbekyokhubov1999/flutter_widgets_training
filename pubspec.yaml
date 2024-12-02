@@ -53,6 +53,7 @@ dependencies:
   google_nav_bar: ^5.0.7
   flutter_rating_bar: ^4.0.1
   #fluttertoast: ^8.2.8
+  flutter_swiper_view: ^1.1.8
 
 dev_dependencies:
   flutter_test:

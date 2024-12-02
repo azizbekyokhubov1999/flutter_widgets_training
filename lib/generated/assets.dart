@@ -4,6 +4,7 @@ class Assets {
 
   static const String assetsITS = 'assets/ITS.pdf';
   static const String assetsImagesImage1 = 'assets/images/image1.webp';
+  static const String flutterWidgetsTrainingAssetsITS = 'assets/ITS.pdf';
   static const String imagesCr7 = 'assets/images/cr7.jpg';
   static const String imagesHotel = 'assets/images/hotel.jpg';
   static const String imagesImage1 = 'assets/images/image1.avif';
@@ -17,6 +18,12 @@ class Assets {
   static const String imagesNature3 = 'assets/images/nature3.jpg';
   static const String imagesNature4 = 'assets/images/nature4.jpg';
   static const String imagesNjr10 = 'assets/images/njr10.jpg';
+  static const String imagesSPeople1 = 'assets/images/sPeople1.jpg';
+  static const String imagesSPeople2 = 'assets/images/sPeople2.jpg';
+  static const String imagesSPeople3 = 'assets/images/sPeople3.jpg';
+  static const String imagesSPeople4 = 'assets/images/sPeople4.jpg';
+  static const String imagesSPeople5 = 'assets/images/sPeople5.jpg';
+  static const String imagesSPeople6 = 'assets/images/sPeople6.jpg';
   static const String imagesTshirt = 'assets/images/tshirt.png';
 
 }
