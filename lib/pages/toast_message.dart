@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
- import 'package:fluttertoast/fluttertoast.dart';
+ // import 'package:fluttertoast/fluttertoast.dart';
 
 class MyToastMessage extends StatelessWidget {
   const MyToastMessage({super.key});
 
   // function for showing toast message
   void showToastMessage(BuildContext context){
-    Fluttertoast.showToast(
-        msg: "Hello my friend",
-      toastLength: Toast.LENGTH_SHORT,
-      gravity: ToastGravity.TOP,
-      timeInSecForIosWeb: 2,
-      backgroundColor: Colors.purple[300],
-      fontSize: 20,
-      textColor: Colors.white,
-      webPosition: 'center',
-    );
+    // Fluttertoast.showToast(
+    //     msg: "Hello my friend",
+    //   toastLength: Toast.LENGTH_SHORT,
+    //   gravity: ToastGravity.TOP,
+    //   timeInSecForIosWeb: 2,
+    //   backgroundColor: Colors.purple[300],
+    //   fontSize: 20,
+    //   textColor: Colors.white,
+    //   webPosition: 'center',
+    // );
   }
 
   @override

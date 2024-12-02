@@ -6,6 +6,7 @@ import 'package:flutter_widgets_training/pages/hiden_appbar.dart';
 import 'package:flutter_widgets_training/pages/modern_bottom_navbar.dart';
 import 'package:flutter_widgets_training/pages/pdf_reader.dart';
 import 'package:flutter_widgets_training/pages/remove_appbar_back_button.dart';
+import 'package:flutter_widgets_training/pages/rotate_widget.dart';
 import 'package:flutter_widgets_training/pages/shimmer_effect.dart';
 import 'package:flutter_widgets_training/pages/show_bottom_sheet.dart';
 import 'package:flutter_widgets_training/pages/toast_message.dart';
@@ -96,7 +97,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyToastMessage(),
+      home: MyRotatedWidget(),
     );
   }
 }
