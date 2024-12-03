@@ -54,6 +54,7 @@ dependencies:
   flutter_rating_bar: ^4.0.1
   #fluttertoast: ^8.2.8
   flutter_swiper_view: ^1.1.8
+  animated_text_kit: ^4.2.2
 
 dev_dependencies:
   flutter_test:
