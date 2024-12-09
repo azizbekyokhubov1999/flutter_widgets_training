@@ -21,6 +21,7 @@ import 'package:flutter_widgets_training/pages/show_bottom_sheet.dart';
 import 'package:flutter_widgets_training/pages/sliver_list.dart';
 import 'package:flutter_widgets_training/pages/swipe_animation.dart';
 import 'package:flutter_widgets_training/pages/toast_message.dart';
+import 'package:flutter_widgets_training/pages/transform_widget.dart';
 import 'package:flutter_widgets_training/pages/transparent_appbar.dart';
 
 
@@ -108,7 +109,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyCurvedAnimation(),
+      home: MyTransformWidget(),
     );
   }
 }
