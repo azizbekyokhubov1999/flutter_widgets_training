@@ -14,6 +14,7 @@ import 'package:flutter_widgets_training/pages/hiden_appbar.dart';
 import 'package:flutter_widgets_training/pages/modern_bottom_navbar.dart';
 import 'package:flutter_widgets_training/pages/pdf_reader.dart';
 import 'package:flutter_widgets_training/pages/remove_appbar_back_button.dart';
+import 'package:flutter_widgets_training/pages/render_flex_error.dart';
 import 'package:flutter_widgets_training/pages/rotate_widget.dart';
 import 'package:flutter_widgets_training/pages/shadow_in_flutter.dart';
 import 'package:flutter_widgets_training/pages/shimmer_effect.dart';
@@ -110,7 +111,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyStaggeredGridView(),
+      home: MyRenderFlex(),
     );
   }
 }
