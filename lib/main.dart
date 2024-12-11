@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets_training/pages/animated_gridview.dart';
 import 'package:flutter_widgets_training/pages/animated_text.dart';
 import 'package:flutter_widgets_training/pages/animated_text_kit.dart';
+import 'package:flutter_widgets_training/pages/constrained_box.dart';
 import 'package:flutter_widgets_training/pages/convex_bottom_nav_bar.dart';
 import 'package:flutter_widgets_training/pages/curved_animation.dart';
 import 'package:flutter_widgets_training/pages/divider_example.dart';
@@ -111,7 +112,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyRenderFlex(),
+      home: MyConstrainedBox(),
 
     );
   }
