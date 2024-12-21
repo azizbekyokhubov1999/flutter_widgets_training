@@ -10,6 +10,7 @@ import 'package:flutter_widgets_training/pages/constrained_box.dart';
 import 'package:flutter_widgets_training/pages/convex_bottom_nav_bar.dart';
 import 'package:flutter_widgets_training/pages/curved_animation.dart';
 import 'package:flutter_widgets_training/pages/divider_example.dart';
+import 'package:flutter_widgets_training/pages/drawer_header.dart';
 import 'package:flutter_widgets_training/pages/expansion_tile.dart';
 import 'package:flutter_widgets_training/pages/fitted_box.dart';
 import 'package:flutter_widgets_training/pages/flutter_rating_bar.dart';
@@ -119,7 +120,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyAnalogWatch(),
+      home: MyDrawerHeader(),
 
     );
   }
