@@ -23,6 +23,7 @@ import 'package:flutter_widgets_training/pages/rotate_widget.dart';
 import 'package:flutter_widgets_training/pages/shadow_in_flutter.dart';
 import 'package:flutter_widgets_training/pages/shimmer_effect.dart';
 import 'package:flutter_widgets_training/pages/show_bottom_sheet.dart';
+import 'package:flutter_widgets_training/pages/single_child_scroll_view.dart';
 import 'package:flutter_widgets_training/pages/sliver_list.dart';
 import 'package:flutter_widgets_training/pages/spacer_page.dart';
 import 'package:flutter_widgets_training/pages/staggered_gridview.dart';
@@ -116,7 +117,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MySpacer(),
+      home: MySingleChildScrollView(),
 
     );
   }
