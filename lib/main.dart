@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_training/pages/analog_watch.dart';
 import 'package:flutter_widgets_training/pages/animated_gridview.dart';
 import 'package:flutter_widgets_training/pages/animated_text.dart';
 import 'package:flutter_widgets_training/pages/animated_text_kit.dart';
@@ -118,7 +119,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyPositioned(),
+      home: MyAnalogWatch(),
 
     );
   }
