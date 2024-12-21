@@ -4,6 +4,7 @@ import 'package:flutter_widgets_training/pages/animated_text.dart';
 import 'package:flutter_widgets_training/pages/animated_text_kit.dart';
 import 'package:flutter_widgets_training/pages/back_drop_filter_glassmorhism.dart';
 import 'package:flutter_widgets_training/pages/baseline_widget.dart';
+import 'package:flutter_widgets_training/pages/clip_path.dart';
 import 'package:flutter_widgets_training/pages/constrained_box.dart';
 import 'package:flutter_widgets_training/pages/convex_bottom_nav_bar.dart';
 import 'package:flutter_widgets_training/pages/curved_animation.dart';
@@ -114,7 +115,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyBackDropFilter(),
+      home: MyClipPath(),
 
     );
   }
