@@ -17,6 +17,7 @@ import 'package:flutter_widgets_training/pages/grid_tile_widget.dart';
 import 'package:flutter_widgets_training/pages/hiden_appbar.dart';
 import 'package:flutter_widgets_training/pages/modern_bottom_navbar.dart';
 import 'package:flutter_widgets_training/pages/pdf_reader.dart';
+import 'package:flutter_widgets_training/pages/positioned_widget.dart';
 import 'package:flutter_widgets_training/pages/remove_appbar_back_button.dart';
 import 'package:flutter_widgets_training/pages/render_flex_error.dart';
 import 'package:flutter_widgets_training/pages/rotate_widget.dart';
@@ -117,7 +118,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MySingleChildScrollView(),
+      home: MyPositioned(),
 
     );
   }
