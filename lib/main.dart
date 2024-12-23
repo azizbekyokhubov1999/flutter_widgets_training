@@ -30,6 +30,7 @@ import 'package:flutter_widgets_training/pages/show_bottom_sheet.dart';
 import 'package:flutter_widgets_training/pages/single_child_scroll_view.dart';
 import 'package:flutter_widgets_training/pages/sliver_list.dart';
 import 'package:flutter_widgets_training/pages/spacer_page.dart';
+import 'package:flutter_widgets_training/pages/stack_widget.dart';
 import 'package:flutter_widgets_training/pages/staggered_gridview.dart';
 import 'package:flutter_widgets_training/pages/swipe_animation.dart';
 import 'package:flutter_widgets_training/pages/toast_message.dart';
@@ -122,7 +123,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true
       ),
-      home: MyGiffy(),
+      home: MyStack(),
 
     );
   }
